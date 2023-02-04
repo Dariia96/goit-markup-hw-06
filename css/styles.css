@@ -900,7 +900,6 @@ margin-bottom: 16px;
     
     color: var(--text-color);
     margin-bottom: 16px;
-    border-color: var(--accent-color);
     transition: border-color var(--main-transition);
 }
 
