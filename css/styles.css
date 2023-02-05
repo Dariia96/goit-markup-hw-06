@@ -566,11 +566,14 @@ margin-bottom: 16px;
 
 }
 
-.subscribe-wrap{
-    display: flex;
-    
+.subscribe-wrap {
+    display: flex;    
     align-items: center;
+    
+}
 
+.subscribe-wrap label{
+    margin-right: 24px;
 }
 .subscribe-input {
     display: inline-block;
@@ -580,7 +583,7 @@ margin-bottom: 16px;
     padding-bottom: 8px;
     padding-bottom: 8px;
     border-radius: 4px;
-    margin-right: 24px;
+    
     background-color: transparent;
     min-width: 264px;
     height:40px;
@@ -590,18 +593,12 @@ margin-bottom: 16px;
     line-height: 2.0;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
-
-}
-
-.subscribe-btn-wrap{
-
-    position: relative;
 }
 
 .subscribe-btn{
-    box-sizing: border-box;
-    
-    display: inline-block;
+    box-sizing: border-box;    
+    display: flex;
+    gap: 16px;
     
     min-width: 165px;
     height: 40px;
@@ -627,16 +624,6 @@ margin-bottom: 16px;
     background-color: var(--hero-btn-color);
 
 }
-
-.airplane-icon {
-    position: absolute;
-    right: 24px;
-    top:8px;
-    
-
-}
-
-
 
 /*--------------------------------------------------PORTFOLIO-------------------------------------------------------------*/
 .portfolio{
@@ -834,11 +821,6 @@ margin-bottom: 16px;
     margin-bottom: 16px;
 }
 
-.modal-form {
-    display: flex;
-    flex-direction: column;
-    
-}
 
 .modal-label span{
     font-weight: 400;
@@ -846,12 +828,13 @@ margin-bottom: 16px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    
+}
+.modal-label{
     margin-bottom: 4px;
 }
 .modal-input-wrap{
     position:relative;
-    
-
 }
 
 .modal-input{
@@ -868,7 +851,8 @@ margin-bottom: 16px;
 .modal-icon{
     position: absolute;
     left: 16px;
-    top: 8px;
+    top: 10px;
+    transform: translateY(-50%);
     fill: var(--main-title-color);
 }
 
